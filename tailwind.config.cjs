@@ -12,7 +12,8 @@ module.exports = {
       'pastel-blue': '#A1C7FF',
       'gray': '#929191',
       'palatinate': '#692757',
-      'white': '#ffffff'
+      'white': '#ffffff',
+      'black': '#000000'
     },
     fontFamily: {
       sans: ['Roboto', 'sans-serif']
