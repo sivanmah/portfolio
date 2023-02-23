@@ -4,9 +4,10 @@
 	import Welcome from '../components/Welcome/Welcome.svelte';
 </script>
 
+<Navbar />
+
 <div class="bg-blue-zodiac">
 	<div class="container mx-auto h-screen">
-		<Navbar />
 		<Welcome />
 	</div>
 	<div class="custom-shape-divider-bottom-1676854164">
@@ -23,8 +24,8 @@
 		</svg>
 	</div>
 </div>
-<div class="bg-palatinate">
-	<div class="container mx-auto red">
+<div class="bg-palatinate p-10">
+	<div class="container mx-auto ">
 		<About />
 	</div>
 </div>

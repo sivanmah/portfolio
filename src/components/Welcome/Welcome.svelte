@@ -11,7 +11,7 @@
 	<h1 class="text-6xl font-bold mb-8">
 		Hei, jeg heter <span class="text-pastel-blue">Sivan</span>
 	</h1>
-	<p class="text-2xl">
+	<p class="text-2xl py-4">
 		Jeg er en full-stack utvikler som brenner for å utvikle bærekraftige løsninger som møter alle
 		krav på et lynrask nivå.
 	</p>

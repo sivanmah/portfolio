@@ -3,6 +3,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    html {
+      @apply scroll-smooth;
+    }
+  }
+  
+
 .custom-shape-divider-bottom-1676854164 {
     position: absolute;
     bottom: 0;
