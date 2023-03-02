@@ -5,7 +5,7 @@
 
 {#if scrollY > 0}
 	<nav
-		class="shadow-lg shadow-black/40 fixed top-0 left-0 right-0 py-4 px-40 text-white flex justify-end space-x-4 text-2xl bg-blue-zodiac"
+		class="z-10 shadow-lg shadow-black/40 fixed top-0 left-0 right-0 py-4 px-40 text-white flex justify-end space-x-4 text-2xl bg-blue-zodiac"
 	>
 		<a class="mr-auto" href="/"
 			><svg class="w-16 fill-pastel-blue" viewBox="0 0 90 46">

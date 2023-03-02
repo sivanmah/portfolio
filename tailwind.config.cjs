@@ -14,6 +14,7 @@ module.exports = {
       'palatinate': '#692757',
       'white': '#ffffff',
       'black': '#000000',
+      'green': '#037171',
     },
     fontFamily: {
       sans: ['Roboto', 'sans-serif']
@@ -22,15 +23,11 @@ module.exports = {
       animation: ["motion-safe"]
   },
     extend: {
-      animation: {
-        fadeIn: "fadeIn 2s ease-in forwards"
+      minHeight: {
+        '0': '0',
+        '1/4': '25%',
+        '1/2': '50vh',
       },
-      keyframes: {
-        fadeIn: {
-          "0%": { opacity: 0 },
-          "100%": { opacity: 1 }
-        }
-      }
     }
       },
   plugins: [],
