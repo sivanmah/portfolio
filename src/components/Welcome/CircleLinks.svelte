@@ -6,7 +6,7 @@
 	{#each circles as i}
 		<span
 			class="bg-pastel-blue w-20 h-20 rounded-full cursor-pointer shadow-lg shadow-black/40 hover:scale-110 ease-in duration-300"
-			><a href={i[2]}><img class="stroke-white p-4" src={i[1]} alt={i[0]} /></a></span
+			><a href={i[2]} target="_blank" rel="noreferrer"><img class="stroke-white p-4" src={i[1]} alt={i[0]} /></a></span
 		>
 	{/each}
 </div>
