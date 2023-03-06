@@ -2,11 +2,6 @@
 module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    screens: {
-      sm: '480px',
-      md: '768px',
-      lg: '976px'
-    },
     colors: {
       'blue-zodiac': '#12284C',
       'pastel-blue': '#A1C7FF',
@@ -27,6 +22,9 @@ module.exports = {
         '0': '0',
         '1/4': '25%',
         '1/2': '50vh',
+      },
+      margin: {
+        '140': '35rem',
       },
     }
       },

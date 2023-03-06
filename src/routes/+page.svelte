@@ -10,13 +10,13 @@
 	<div class="container mx-auto h-screen">
 		<Welcome />
 	</div>
-	<div class="spacer layer1" />
+	<div class="spacer layer1 -mt-60 md:-mt-80 lg:-mt-96 2xl:-mt-140" />
 </div>
 <div class="bg-palatinate">
-	<div class="container mx-auto min-h-1/2 mb-52">
+	<div class="container mx-auto min-h-1/2 ">
 		<About />
 	</div>
-	<div class="spacer layer2" />
+	<div class="spacer layer2 2xl:-mt-80" />
 </div>
 <div class="bg-green p-10 min h-screen">
 	<div class="container mx-auto">test</div>
@@ -29,7 +29,6 @@
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
-		margin-top: -600px;
 	}
 
 	.layer1 {
