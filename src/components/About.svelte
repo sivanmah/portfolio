@@ -12,10 +12,10 @@
 	on:change={({ detail }) => {
 		isInView = detail.inView;
 	}}
-	class="flex space-x-10"
+	class="flex space-x-20"
 >
 	{#if isInView}
-		<div in:fade={{ delay: 250, duration: 300 }} class="2xl:mr-96 xl:mr-60">
+		<div in:fade={{ delay: 250, duration: 300 }} class="2xl:mr-40 xl:mr-20">
 			<h3 class="text-white text-5xl font-bold my-6">Hvem jeg er</h3>
 			<p class="text-white text-lg">
 				Mitt navn er Sivan Mahmud, og jeg er 22 år gammel. Nå går jeg mitt siste semester på NTNU,

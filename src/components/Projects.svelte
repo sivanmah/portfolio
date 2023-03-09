@@ -2,4 +2,4 @@
 	import Section from './Section.svelte';
 </script>
 
-<Section />
+<Section id="projects">Prosjekter</Section>
