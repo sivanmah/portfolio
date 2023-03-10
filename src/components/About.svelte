@@ -30,7 +30,8 @@
 				svært fornøyd med det valget.
 			</p>
 		</div>
-
-		<div in:fade={{ delay: 250, duration: 300 }} class="bg-gray py-20 px-40" />
+		<div in:fade={{ delay: 250, duration: 300 }} class="w-4/5">
+			<img src="Sivan.webp" alt="Portrait">
+		</div>
 	{/if}
 </div>
