@@ -1,11 +1,13 @@
 <script>
-	let shadow = '';
+	import { Hamburger } from 'svelte-hamburgers';
+
 	let scrollY;
+	let open;
 </script>
 
 {#if scrollY > 0}
 	<nav
-		class="z-10 shadow-lg shadow-black/40 fixed top-0 left-0 right-0 py-4 px-40 text-white flex justify-end space-x-4 text-2xl bg-blue-zodiac"
+		class="z-10 shadow-lg shadow-black/40 fixed top-0 left-0 right-0 py-4 px-40 text-white flex justify-end text-2xl bg-blue-zodiac"
 	>
 		<a class="mr-auto" href="/"
 			><svg class="w-16 fill-pastel-blue" viewBox="0 0 90 46">
@@ -14,10 +16,15 @@
 				/>
 			</svg>
 		</a>
-		<a href="#about">Om meg</a>
-		<a href="#">Prosjekter</a>
-		<a href="#">Kontakt</a>
-		<a href="#">NOR / ENG</a>
+		<div class="lg:hidden">
+			<Hamburger bind:open --color="white" />
+		</div>
+		<div class="hidden lg:flex space-x-5 xl:space-x-10">
+			<a href="#about">Om meg</a>
+			<a href="#projects">Prosjekter</a>
+			<a href="/">Kontakt</a>
+			<a href="/">NOR / ENG</a>
+		</div>
 	</nav>
 {:else}
 	<nav
@@ -30,10 +37,15 @@
 				/>
 			</svg>
 		</a>
-		<a href="#about">Om meg</a>
-		<a href="#">Prosjekter</a>
-		<a href="#">Kontakt</a>
-		<a href="#">NOR / ENG</a>
+		<div class="lg:hidden">
+			<Hamburger bind:open --color="white" />
+		</div>
+		<div class="hidden lg:flex space-x-5 xl:space-x-10">
+			<a href="#about">Om meg</a>
+			<a href="#projects">Prosjekter</a>
+			<a href="/">Kontakt</a>
+			<a href="/">NOR / ENG</a>
+		</div>
 	</nav>
 {/if}
 
