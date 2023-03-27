@@ -6,23 +6,25 @@
 	let isInView;
 </script>
 
-<Section id="about">Om meg</Section>
+<div class="mx-10 lg:mx-0">
+	<Section id="about">Om meg</Section>
+</div>
 <div
 	use:inview={{ unobserveOnEnter: true }}
 	on:change={({ detail }) => {
 		isInView = detail.inView;
 	}}
-	class="flex space-x-10"
+	class="flex lg:space-x-20 flex-col lg:flex-row items-center lg:mx-0"
 >
 	{#if isInView}
-		<div in:fade={{ delay: 250, duration: 300 }} class="2xl:mr-96 xl:mr-60">
-			<h3 class="text-white text-5xl font-bold my-6">Hvem jeg er</h3>
-			<p class="text-white text-lg">
+		<div in:fade={{ delay: 250, duration: 300 }} class="2xl:mr-40 lg:mr-20 mx-10 lg:mx-0">
+			<h3 class="text-white text-3xl xl:text-5xl font-bold my-2 xl:my-6">Hvem jeg er</h3>
+			<p class="text-white xl:text-lg">
 				Mitt navn er Sivan Mahmud, og jeg er 22 år gammel. Nå går jeg mitt siste semester på NTNU,
 				hvor jeg studerer Webutvikling. Jeg vokste opp i et lite sted som heter Hov, men i 2015
 				flyttet familien min til Gjøvik og jeg har bodd her siden.
 			</p>
-			<p class="text-white text-lg py-4">
+			<p class="text-white xl:text-lg py-2 xl:py-4">
 				Helt siden jeg var at barn hadde jeg alltid stor interesse for datamaskiner, og jeg visste
 				at jeg ville jobbe med noe innenfor det. Derfor valgte jeg å gå IKT-SK linjen på Gjøvik
 				videregående skole. Der fikk jeg lære om blant annet grunnleggende programmering med Python,
@@ -30,7 +32,8 @@
 				svært fornøyd med det valget.
 			</p>
 		</div>
-
-		<div in:fade={{ delay: 250, duration: 300 }} class="bg-gray py-20 px-40" />
+		<div in:fade={{ delay: 250, duration: 300 }} class="w-3/5 md:w-2/5 lg:w-full">
+			<img src="Sivan.webp" alt="Portrait" />
+		</div>
 	{/if}
 </div>
