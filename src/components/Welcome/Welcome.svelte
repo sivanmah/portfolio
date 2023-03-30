@@ -7,7 +7,7 @@
 	];
 </script>
 
-<div class="text-white text-center flex flex-col items-center justify-center h-full mx-8">
+<div class="text-white text-center flex flex-col items-center justify-center h-full mx-12 lg:mx-40">
 	<h1 class="text-6xl font-bold mb-8 leading-tight md:leading-none">
 		Hei, jeg heter <span class="text-pastel-blue">Sivan</span>
 	</h1>

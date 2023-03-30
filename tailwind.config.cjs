@@ -30,8 +30,16 @@ module.exports = {
 				110: '27.5rem',
 				120: '30rem',
 				140: '35rem'
-			}
-		}
+			},
+			height: {
+				'50vh': '50vh',
+				'60vh': '60vh',
+				'70vh': '70vh',
+				'80vh': '80vh',
+				'90vh': '90vh'
+			},
 	},
 	plugins: []
-};
+}
+}
+
