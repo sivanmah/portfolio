@@ -7,11 +7,11 @@
 	];
 </script>
 
-<div class="text-white text-center flex flex-col items-center justify-center h-full mx-12 lg:mx-40">
-	<h1 class="text-6xl font-bold mb-8 leading-tight md:leading-none">
+<div class="text-white text-center flex flex-col items-center justify-center h-full mx-6 md:mx-12 lg:mx-40">
+	<h1 class="text-3xl sm:text-5xl lg:text-6xl font-bold mb-8 leading-tight md:leading-none">
 		Hei, jeg heter <span class="text-pastel-blue">Sivan</span>
 	</h1>
-	<p class="text-2xl py-4">
+	<p class="text-xl lg:text-2xl py-4">
 		Jeg er en full-stack utvikler som brenner for å utvikle bærekraftige løsninger som møter alle
 		krav på et lynrask nivå.
 	</p>

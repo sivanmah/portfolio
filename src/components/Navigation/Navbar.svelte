@@ -11,7 +11,7 @@
 
 {#if open}
 	<div
-		class="[&>*]:p-4 flex flex-col px-10 pt-20 space-y-4 md:hidden fixed top-0 right-0 h-screen w-full bg-blue-zodiac text-white text-center text-xl transition-transform duration-300 ease-out"
+		class="[&>*]:p-4 flex flex-col px-10 pt-20 space-y-4 md:hidden fixed top-0 right-0 h-screen w-full bg-blue-zodiac text-white text-center text-2xl transition-transform duration-300 ease-out"
 	>
 		<a href="#about">Om meg</a>
 		<a href="#projects">Prosjekter</a>
@@ -27,10 +27,10 @@
 			/>
 		</svg>
 	</a>
-	<div class="lg:hidden">
+	<div class="md:hidden">
 		<Hamburger bind:open --color="white" --padding="0" />
 	</div>
-	<div class="hidden lg:flex space-x-5 xl:space-x-10">
+	<div class="hidden md:flex space-x-5 xl:space-x-10">
 		<a href="#about">Om meg</a>
 		<a href="#projects">Prosjekter</a>
 		<a href="/">Kontakt</a>
