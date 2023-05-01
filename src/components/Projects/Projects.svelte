@@ -7,4 +7,5 @@
 	<Section id="projects">Prosjekter</Section>
 </div>
 <div class="grid grid-cols-2 gap-4 [&>*]:bg-gray [&>*]:h-40">
+	<Project title={'test'} />
 </div>
