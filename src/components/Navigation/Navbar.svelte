@@ -7,13 +7,16 @@
 	const noShadow =
 		'fixed top-0 left-0 right-0 py-4 xl:px-40 lg:px-20 px-10 text-white flex text-2xl bg-blue-zodiac';
 	//remove shadow from navbar when opening menu
+	function closeMenu() {
+		open = false;
+	}
 </script>
 
 {#if open}
 	<div
 		class="[&>*]:p-4 flex flex-col px-10 pt-20 space-y-4 md:hidden fixed top-0 right-0 h-screen w-full bg-blue-zodiac text-white text-center text-2xl transition-transform duration-300 ease-out"
 	>
-		<a href="#about">Om meg</a>
+		<a on:click={closeMenu} href="#about">Om meg</a>
 		<a href="#projects">Prosjekter</a>
 		<a href="/">Kontakt</a>
 		<a href="/">NOR / ENG</a>
