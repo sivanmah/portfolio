@@ -1,15 +1,18 @@
 <script>
 	export let image;
 	export let title;
+	export let alt;
 	let showModal = false;
 </script>
 
 <div
 	on:click={() => (showModal = true)}
 	on:keydown={() => (showModal = true)}
-	class="bg-gray px-40 py-20"
+	class="bg-[url('{image}')] "
 >
-	{title}
+	<div class="bg-black my-10 text-center bg-opacity-75 text-white lg:text-xl">
+		{title}
+	</div>
 </div>
 
 {#if showModal}
@@ -28,7 +31,15 @@
 						class="w-6 cursor-pointer m-2"
 					/>
 				</div>
-				<h2 class="text-white text-4xl">{title}</h2>
+				<h2 class="text-white text-4xl text-center">{title}</h2>
+				<div class="flex">
+					<p class="text-white">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptates impedit illum,
+						voluptatum quos tempora id? Vero odit deserunt enim laboriosam veritatis sit sapiente
+						necessitatibus aliquam quam tenetur, voluptatem porro.
+					</p>
+					<img src={image} {alt} class="w-2/5" />
+				</div>
 			</div>
 		</div>
 	</div>

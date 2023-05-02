@@ -33,7 +33,7 @@
 			</p>
 		</div>
 		<div in:fade={{ delay: 250, duration: 300 }} class="w-3/5 md:w-2/5 lg:w-full">
-			<img src="Sivan.webp" alt="Portrait" />
+			<img src="Sivan.webp" alt="Portrait" class="rounded-3xl" />
 		</div>
 	{/if}
 </div>
