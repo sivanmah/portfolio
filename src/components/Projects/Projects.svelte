@@ -11,7 +11,19 @@
 		title={'QR code website'}
 		image={'/images/qrcode_website.webp'}
 		alt={'QR website screenshot'}
-	/>
-	<Project title={'QR code website'} image={'/images/qrcode_website.webp'} />
-	<Project title={'QR code website'} image={'/images/qrcode_website.webp'} />
+	>
+		Her jobbet jeg sammen med en annen student for å lage en nettside der brukere kan generere,
+		redigere, slette, og organisere QR koder. Brukere må være registrert og på-logget for å bruke
+		verktøyet. Jeg hadde mest ansvar for back-end. Vi brukte PHP, MySQL, og JavaScript for å bygge
+		nettsida.
+	</Project>
+	<Project
+		title={'ExamMatcher'}
+		image={'/images/exammatcher_website.webp'}
+		alt={'ExamMatcher website screenshot'}
+	>
+		Jeg var en del av en gruppe med studenter som lagde en nettside som skal hjelpe
+		universitetslektorer med å finne en annen lektor som kan hjelpe med å være sensor på eksamen. Vi
+		brukte MERN-stack, det vil si MongoDB, Express.js, React, og Node.js.
+	</Project>
 </div>

@@ -1,8 +1,23 @@
 <script>
+	import { onMount } from 'svelte';
 	export let image;
 	export let title;
 	export let alt;
 	let showModal = false;
+
+	// close modal on escape key and outside click
+	onMount(() => {
+		document.addEventListener('keydown', (e) => {
+			if (e.key === 'Escape') {
+				showModal = false;
+			}
+		});
+		document.addEventListener('click', (e) => {
+			if (e.target.classList.contains('backdrop-blur')) {
+				showModal = false;
+			}
+		});
+	});
 </script>
 
 <div
@@ -34,9 +49,7 @@
 				<h2 class="text-white text-4xl text-center">{title}</h2>
 				<div class="flex">
 					<p class="text-white">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptates impedit illum,
-						voluptatum quos tempora id? Vero odit deserunt enim laboriosam veritatis sit sapiente
-						necessitatibus aliquam quam tenetur, voluptatem porro.
+						<slot />
 					</p>
 					<img src={image} {alt} class="w-2/5" />
 				</div>
