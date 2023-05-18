@@ -18,8 +18,6 @@
 	>
 		<a on:click={closeMenu} href="#about">Om meg</a>
 		<a href="#projects">Prosjekter</a>
-		<a href="/">Kontakt</a>
-		<a href="/">NOR / ENG</a>
 	</div>
 {/if}
 <nav class={!scrollY || open ? noShadow : shadow}>
@@ -36,8 +34,6 @@
 	<div class="hidden md:flex space-x-5 xl:space-x-10">
 		<a href="#about">Om meg</a>
 		<a href="#projects">Prosjekter</a>
-		<a href="/">Kontakt</a>
-		<a href="/">NOR / ENG</a>
 	</div>
 </nav>
 

@@ -37,7 +37,7 @@
 		<div
 			class="fixed top-0 left-0 w-full h-full bg-black/50 flex items-center justify-center backdrop-blur"
 		>
-			<div class="bg-blue-zodiac w-1/2 h-1/2">
+			<div class="bg-blue-zodiac w-full h-full lg:w-3/5 xl:w-1/2 md:h-1/2">
 				<div class="flex justify-end">
 					<img
 						on:click={() => (showModal = false)}
@@ -48,11 +48,13 @@
 					/>
 				</div>
 				<h2 class="text-white text-4xl text-center mb-4">{title}</h2>
-				<div class="flex items-center space-x-4 mx-4">
+				<div
+					class="flex items-center flex-col md:flex-row space-y-4 md:space-x-4 md:space-y-0 mx-4 py-40 md:py-0"
+				>
 					<p class="text-white">
 						<slot />
 					</p>
-					<img src={image} {alt} class="w-3/5" />
+					<img src={image} {alt} class="w-full md:w-2/5 lg:w-3/5" />
 				</div>
 			</div>
 		</div>
