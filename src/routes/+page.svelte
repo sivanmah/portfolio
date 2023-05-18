@@ -3,6 +3,7 @@
 	import Navbar from '../components/Navigation/Navbar.svelte';
 	import Welcome from '../components/Welcome/Welcome.svelte';
 	import Projects from '../components/Projects/Projects.svelte';
+	import Footer from '../components/Footer.svelte';
 </script>
 
 <Navbar />
@@ -22,6 +23,11 @@
 <div class="bg-dark-purple">
 	<div class="container mx-auto min-h-1/2 2xl:px-40 p-20">
 		<Projects />
+	</div>
+</div>
+<div class="bg-black">
+	<div class="container mx-auto p-10">
+		<Footer />
 	</div>
 </div>
 

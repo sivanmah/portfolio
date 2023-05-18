@@ -23,7 +23,8 @@
 <div
 	on:click={() => (showModal = true)}
 	on:keydown={() => (showModal = true)}
-	class="bg-[url('{image}')] "
+	style="background-image: url({image});"
+	class="bg-cover rounded-lg"
 >
 	<div class="bg-black my-10 text-center bg-opacity-75 text-white lg:text-xl">
 		{title}
@@ -46,12 +47,12 @@
 						class="w-6 cursor-pointer m-2"
 					/>
 				</div>
-				<h2 class="text-white text-4xl text-center">{title}</h2>
-				<div class="flex">
+				<h2 class="text-white text-4xl text-center mb-4">{title}</h2>
+				<div class="flex items-center space-x-4 mx-4">
 					<p class="text-white">
 						<slot />
 					</p>
-					<img src={image} {alt} class="w-2/5" />
+					<img src={image} {alt} class="w-3/5" />
 				</div>
 			</div>
 		</div>

@@ -26,4 +26,12 @@
 		universitetslektorer med å finne en annen lektor som kan hjelpe med å være sensor på eksamen. Vi
 		brukte MERN-stack, det vil si MongoDB, Express.js, React, og Node.js.
 	</Project>
+	<Project
+		title={'Portfolio'}
+		image={'/images/portfolio_website.webp'}
+		alt={'Portfolio website screenshot'}
+	>
+		Nettsiden du er på akkurat nå. Jeg lagde denne nettsiden for å vise frem mine ferdigheter og
+		prosjekter. Jeg brukte Svelte og TailwindCSS for å bygge denne nettsiden.
+	</Project>
 </div>
