@@ -21,7 +21,7 @@
 			<h3 class="text-white text-3xl xl:text-5xl font-bold my-2 xl:my-6">Hvem jeg er</h3>
 			<p class="text-white xl:text-lg">
 				Mitt navn er Sivan Mahmud, og jeg er 23 år gammel. Nå går jeg mitt siste semester på NTNU,
-				hvor jeg studerer Webutvikling. Jeg vokste opp i et lite sted som heter Hov, men i 2015
+				hvor jeg studerer Webutvikling. Jeg vokste opp på et lite sted som heter Hov, men i 2015
 				flyttet familien min til Gjøvik og jeg har bodd her siden.
 			</p>
 			<p class="text-white xl:text-lg py-2 xl:py-4">
