@@ -19,11 +19,11 @@
 		class="[&>*]:p-4 flex flex-col px-10 pt-20 space-y-4 md:hidden fixed top-0 right-0 h-screen w-full bg-blue-zodiac text-white text-center text-2xl transition-transform duration-300 ease-out"
 	>
 		<a on:click={closeMenu} href="#about">Om meg</a>
-		<a href="#projects">Prosjekter</a>
+		<a on:click={closeMenu} href="#projects">Prosjekter</a>
 		{#if $locale === 'no'}
-			<button on:click={() => changeLanguage('en')}>EN/NO</button>
+			<button on:click={() => changeLanguage('en') && closeMenu}>EN/NO</button>
 		{:else}
-			<button on:click={() => changeLanguage('no')}>EN/NO</button>
+			<button on:click={() => changeLanguage('no') && closeMenu}>EN/NO</button>
 		{/if}
 	</div>
 {/if}
