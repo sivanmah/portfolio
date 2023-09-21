@@ -20,6 +20,11 @@
 	>
 		<a on:click={closeMenu} href="#about">Om meg</a>
 		<a href="#projects">Prosjekter</a>
+		{#if $locale === 'no'}
+			<button on:click={() => changeLanguage('en')}>EN/NO</button>
+		{:else}
+			<button on:click={() => changeLanguage('no')}>EN/NO</button>
+		{/if}
 	</div>
 {/if}
 <nav class={!scrollY || open ? noShadow : shadow}>
