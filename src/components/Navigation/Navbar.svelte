@@ -21,9 +21,9 @@
 		<a on:click={closeMenu} href="#about">Om meg</a>
 		<a on:click={closeMenu} href="#projects">Prosjekter</a>
 		{#if $locale === 'no'}
-			<button on:click={() => changeLanguage('en') && closeMenu}>EN/NO</button>
+			<button on:click={() => changeLanguage('en')} on:click={closeMenu}>EN/NO</button>
 		{:else}
-			<button on:click={() => changeLanguage('no') && closeMenu}>EN/NO</button>
+			<button on:click={() => changeLanguage('no')} on:click={closeMenu}>EN/NO</button>
 		{/if}
 	</div>
 {/if}
