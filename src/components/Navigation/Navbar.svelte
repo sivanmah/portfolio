@@ -1,4 +1,6 @@
 <script>
+	import { locale } from 'svelte-i18n';
+	const changeLanguage = (lang) => locale.set(lang);
 	import { Hamburger } from 'svelte-hamburgers';
 	let scrollY;
 	let open;
@@ -34,6 +36,12 @@
 	<div class="hidden md:flex space-x-5 xl:space-x-10">
 		<a href="#about">Om meg</a>
 		<a href="#projects">Prosjekter</a>
+		<!-- button for switching locale -->
+		{#if $locale === 'no'}
+			<button on:click={() => changeLanguage('en')}>EN/NO</button>
+		{:else}
+			<button on:click={() => changeLanguage('no')}>EN/NO</button>
+		{/if}
 	</div>
 </nav>
 

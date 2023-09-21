@@ -15,8 +15,7 @@
 		{$_('hello')}<span class="text-pastel-blue">Sivan</span>
 	</h1>
 	<p class="text-xl lg:text-2xl py-4">
-		Jeg er en full-stack utvikler som brenner for å utvikle bærekraftige løsninger som møter alle
-		krav på et lynrask nivå.
+		{$_('introduction')}
 	</p>
 	<CircleLinks {circles} />
 </div>
