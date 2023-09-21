@@ -37,6 +37,10 @@ module.exports = {
 				'70vh': '70vh',
 				'80vh': '80vh',
 				'90vh': '90vh'
+			},
+			backgroundImage: {
+				'palatinate-wave': "url('/waves/palatinate.svg')",
+				'dark-purple-wave': "url('/waves/dark-purple.svg')"
 			}
 		},
 		plugins: []
