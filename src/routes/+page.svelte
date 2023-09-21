@@ -12,13 +12,13 @@
 	<div class="container mx-auto h-90vh">
 		<Welcome />
 	</div>
-	<div class="spacer layer1 -mt-60 md:-mt-80 lg:-mt-96 xl:-mt-110 3xl:-mt-140" />
+	<div class="spacer bg-palatinate-wave -mt-60 md:-mt-80 lg:-mt-96 xl:-mt-110 3xl:-mt-140" />
 </div>
 <div class="bg-palatinate">
 	<div class="container mx-auto min-h-1/2 2xl:px-10">
 		<About />
 	</div>
-	<div class="spacer layer2 md:-mt-20 lg:-mt-40 2xl:-mt-60 3xl:-mt-80" />
+	<div class="spacer bg-dark-purple-wave md:-mt-20 lg:-mt-40 2xl:-mt-60 3xl:-mt-80" />
 </div>
 <div class="bg-dark-purple">
 	<div class="container mx-auto min-h-1/2 2xl:px-40 p-20">
@@ -38,12 +38,5 @@
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
-	}
-
-	.layer1 {
-		background-image: url('../../waves/palatinate.svg');
-	}
-	.layer2 {
-		background-image: url('../../waves/dark-purple.svg');
 	}
 </style>
