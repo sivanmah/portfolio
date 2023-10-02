@@ -1,4 +1,14 @@
 {
 	"hello": "Hi, my name is ",
-	"introduction": "I am a full-stack developer who is passionate about developing sustainable solutions that meet all requirements at a lightning fast level."
+	"introduction": "I am a full-stack developer who is passionate about developing sustainable solutions that meet all requirements at a lightning fast level.",
+	"about": "About me",
+	"about-header": "Who i am",
+	"about-text1": "My name is Sivan Mahmud and I am 23 years old. I am now in my last semester at NTNU, where I am studying Web Development. I grew up in a small place called Hov, but in 2015 my family moved to Gjøvik and I have lived here ever since.",
+	"about-text2": "Ever since I was a child, I always had a great interest in computers and I knew that I wanted to work in something within it. That is why I chose to take the IKT-SK course at Gjøvik upper secondary school. I learned about, among other things, basic programming with Python, and HTML + CSS. But I wanted to learn more, so I chose to study web development, and I'm very happy with that choice.",
+	"projects": "Projects",
+	"qr-project-header": "QR code website",
+	"qr-project-text": "Here I worked together with another student to create a website where users can generate, edit, delete and organize QR codes. Users must be registered and logged in to use the tool. I was mostly responsible for the back-end. We used PHP, MySQL and JavaScript to build the website.",
+	"exammatcher-project-text": "I was part of a group of students who created a website to help university lecturers find another lecturer who can give assistance as an additional examiner for exams. We used the MERN stack, i.e. MongoDB, Express.js, React, and Node.js.",
+	"portfolio-project-header": "Portfolio",
+	"portfolio-project-text": "The website you are currently visiting. I created this website to showcase my skills and projects, with the power of Svelte and TailwindCSS."
 }
