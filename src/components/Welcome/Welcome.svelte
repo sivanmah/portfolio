@@ -3,7 +3,7 @@
 	import CircleLinks from './CircleLinks.svelte';
 	let circles = [
 		['Github icon', 'github.svg', 'https://github.com/sivanmah'],
-		['LinkedIn icon', 'linkedin.svg', 'https://www.linkedin.com/in/sivan-mahmud-661b10194/'],
+		['LinkedIn icon', 'linkedin.svg', 'https://www.linkedin.com/in/sivan-sabir-m-661b10194/'],
 		['Email icon', 'email.svg', 'mailto:sivanmahmud@gmail.com/']
 	];
 </script>
