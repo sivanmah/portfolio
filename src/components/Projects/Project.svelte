@@ -52,16 +52,18 @@
 				<div
 					class="flex items-center flex-col md:flex-row space-y-4 md:space-x-4 md:space-y-0 mx-4 py-40 md:py-0"
 				>
-					<p class="text-white">
-						<slot />
-					</p>
-					{#if link}
-						<p>
-							<a href={link} target="_blank">
-								{link}
-							</a>
+					<div>
+						<p class="text-white">
+							<slot />
 						</p>
-					{/if}
+						{#if link}
+							<p>
+								<a href={link} target="_blank" class="text-blue-500">
+									{link}
+								</a>
+							</p>
+						{/if}
+					</div>
 					<img src={image} {alt} class="w-full md:w-2/5 lg:w-3/5" />
 				</div>
 			</div>
