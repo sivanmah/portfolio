@@ -9,7 +9,8 @@ module.exports = {
 			palatinate: '#692757',
 			white: '#ffffff',
 			black: '#000000',
-			'dark-purple': '#151129'
+			'dark-purple': '#151129',
+			'blue-link': '#3b82f6',
 		},
 		fontFamily: {
 			sans: ['Roboto', 'sans-serif']
