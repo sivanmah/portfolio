@@ -12,5 +12,5 @@
 	"portfolio-project-header": "Portfolio",
 	"portfolio-project-text": "The website you are currently visiting. I created this website to showcase my skills and projects, with the power of Svelte and TailwindCSS.",
 	"win95desktop-project-header": "Windows 95 Desktop",
-	"win95desktop-project-text": "A website built with Next.js that is meant to imitate the desktop of Windows 95, with more modern tools. I created this website to learn more about Next.js and to have fun. In addition to Next.js, I also used TailwindCSS and TypeScript."
+	"win95desktop-project-text": "A website built with Next.js that is meant to imitate the desktop of Windows 95, with more modern tools. I created this website to learn more about Next.js and to have fun. In addition to Next.js, I also used TailwindCSS and TypeScript. \n <a href='https://win95-desktop.vercel.app/' target='_blank'>Click here to visit the website</a>."
 }
