@@ -12,6 +12,7 @@
 		title={$_('win95desktop-project-header')}
 		image={'/images/win95desktop_website.webp'}
 		alt={'Win95Desktop website screenshot'}
+		link={'https://win95-desktop.vercel.app/'}
 	>
 		{$_('win95desktop-project-text')}
 	</Project>

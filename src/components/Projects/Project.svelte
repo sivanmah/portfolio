@@ -3,6 +3,7 @@
 	export let image;
 	export let title;
 	export let alt;
+	export let link;
 	let showModal = false;
 
 	// close modal on escape key and outside click
@@ -54,6 +55,13 @@
 					<p class="text-white">
 						<slot />
 					</p>
+					{#if link}
+						<p>
+							<a href={link} target="_blank">
+								{link}
+							</a>
+						</p>
+					{/if}
 					<img src={image} {alt} class="w-full md:w-2/5 lg:w-3/5" />
 				</div>
 			</div>
