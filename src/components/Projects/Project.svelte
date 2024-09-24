@@ -58,7 +58,7 @@
 						</p>
 						{#if link}
 							<p>
-								<a href={link} target="_blank" class="text-blue-500">
+								<a href={link} target="_blank" class="text-blue-link">
 									{link}
 								</a>
 							</p>
