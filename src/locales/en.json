@@ -10,5 +10,7 @@
 	"qr-project-text": "Here I worked together with another student to create a website where users can generate, edit, delete and organize QR codes. Users must be registered and logged in to use the tool. I was mostly responsible for the back-end. We used PHP, MySQL and JavaScript to build the website.",
 	"exammatcher-project-text": "I was part of a group of students who created a website to help university lecturers find another lecturer who can give assistance as an additional examiner for exams. We used the MERN stack, i.e. MongoDB, Express.js, React, and Node.js.",
 	"portfolio-project-header": "Portfolio",
-	"portfolio-project-text": "The website you are currently visiting. I created this website to showcase my skills and projects, with the power of Svelte and TailwindCSS."
+	"portfolio-project-text": "The website you are currently visiting. I created this website to showcase my skills and projects, with the power of Svelte and TailwindCSS.",
+	"win95desktop-project-header": "Windows 95 Desktop",
+	"win95desktop-project-text": "A website built with Next.js that is meant to imitate the desktop of Windows 95, with more modern tools. I created this website to learn more about Next.js and to have fun. In addition to Next.js, I also used TailwindCSS and TypeScript."
 }

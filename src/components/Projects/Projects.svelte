@@ -9,6 +9,13 @@
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 [&>*]:bg-gray [&>*]:h-60">
 	<Project
+		title={$_('win95desktop-project-header')}
+		image={'/images/win95desktop_website.webp'}
+		alt={'Win95Desktop website screenshot'}
+	>
+		{$_('win95desktop-project-text')}
+	</Project>
+	<Project
 		title={$_('qr-project-header')}
 		image={'/images/qrcode_website.webp'}
 		alt={'QR website screenshot'}
