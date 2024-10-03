@@ -9,6 +9,14 @@
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 [&>*]:bg-gray [&>*]:h-60">
 	<Project
+		title={$_('comic2kindle-project-header')}
+		image={'/images/comic2kindle_website.webp'}
+		alt={'Comic2Kindle website screenshot'}
+		link={'https://comic-to-kindle-cu43xzv71-sivans-projects-4792c9c8.vercel.app/'}
+	>
+		{$_('comic2kindle-project-text')}
+	</Project>
+	<Project
 		title={$_('win95desktop-project-header')}
 		image={'/images/win95desktop_website.webp'}
 		alt={'Win95Desktop website screenshot'}
