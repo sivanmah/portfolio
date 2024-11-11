@@ -20,7 +20,7 @@
 		title={$_('win95desktop-project-header')}
 		image={'/images/win95desktop_website.webp'}
 		alt={'Win95Desktop website screenshot'}
-		link={'https://win95-desktop.vercel.app/'}
+		link={'https://win95-sivan.duckdns.org/'}
 	>
 		{$_('win95desktop-project-text')}
 	</Project>
