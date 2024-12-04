@@ -14,5 +14,7 @@
 	"win95desktop-project-header": "Windows 95 Desktop",
 	"win95desktop-project-text": "En nettside bygget med Next.js som skal imitere skrivebordet til Windows 95, med mere moderne verktøy. Jeg lagde denne nettsiden for å lære mer om Next.js og for å ha det gøy. I tillegg til Next.js brukte jeg også TailwindCSS og TypeScript. Nettsiden tar også nytte av OpenAI APIen, samt websockets. Den er hostet på min Ubuntu VPS.",
 	"comic2kindle-project-header": "Comic2Kindle",
-	"comic2kindle-project-text": "Dette er en webapp som lar deg konvertere bilder av comic-sider til et format som er leselig på en Kindle. Den bruker et API bygget med Flask for å prosessere konverteringen, og frontenden er bygget med React. Jeg valgte å lage denne webappen fordi dette er et verktøy som faktisk ville være nyttig for meg, og fordi jeg ville bli kjent med Python og Flask. Frontenden er hostet på Vercel, og backenden er hostet på min Ubuntu VPS."
+	"comic2kindle-project-text": "Dette er en webapp som lar deg konvertere bilder av comic-sider til et format som er leselig på en Kindle. Den bruker et API bygget med Flask for å prosessere konverteringen, og frontenden er bygget med React. Jeg valgte å lage denne webappen fordi dette er et verktøy som faktisk ville være nyttig for meg, og fordi jeg ville bli kjent med Python og Flask. Frontenden er hostet på Vercel, og backenden er hostet på min Ubuntu VPS.",
+	"langvadarborist-project-header": "Hjemmeside for arborist bedrift",
+	"langvadarborist-project-text": "Jeg ble ansatt for å bygge en hjemmeside for et lokalt arborist bedrift. Nettsiden ble bygget med HTML og TailwindCSS."
 }

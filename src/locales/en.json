@@ -14,5 +14,7 @@
 	"win95desktop-project-header": "Windows 95 Desktop",
 	"win95desktop-project-text": "A website built with Next.js that is meant to imitate the desktop of Windows 95, with more modern tools. I created this website to learn more about Next.js and to have fun. In addition to Next.js, I also used TailwindCSS and TypeScript. The website uses the OpenAI API, as well as websockets. It is hosted on my Ubuntu VPS.",
 	"comic2kindle-project-header": "Comic2Kindle",
-	"comic2kindle-project-text": "This is a webapp that lets you convert images of comic book pages to a format that is readable on a Kindle. It uses an API built with Flask to process the conversion, and the frontend is built with React. I chose to create this webapp because this is a tool that would actually be useful for me, and because I wanted to familiarize myself with Python and Flask. The frontend is hosted on Vercel, and the backend is hosted on my Ubuntu VPS."
+	"comic2kindle-project-text": "This is a webapp that lets you convert images of comic book pages to a format that is readable on a Kindle. It uses an API built with Flask to process the conversion, and the frontend is built with React. I chose to create this webapp because this is a tool that would actually be useful for me, and because I wanted to familiarize myself with Python and Flask. The frontend is hosted on Vercel, and the backend is hosted on my Ubuntu VPS.",
+	"langvadarborist-project-header": "Homepage for arborist company",
+	"langvadarborist-project-text": "I was hired to create a website for a local arborist company. The website is fairly simple and is built with HTML and TailwindCSS."
 }
